@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  background-color: #f2f2f2;
+  color: #404040;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: auto;
+  background-color: #ee2e24;
+  border-bottom: solid 1px #ee2e24;
+}
+
+.topnav-brand {
+  float: left;
+  margin: 14px 100px;
+}
+
+.topnav-brand a {
+  font-family: cursive;
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.topnav-menu {
+  float: right;
+  margin-right: 1px;
+}
+
+.topnav-menu a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 25px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.topnav-menu a:hover {
+  background-color: #f2f2f2;
+  color: #ee2e24;
+}
+
+.topnav-menu a.active {
+  background-color: #f2f2f2;
+  color: #ee2e24;
+}
+
+.container {
+  width: 75%;
+  margin: auto;
+}
+
+.primary-title {
+  text-align: center;
+  font-family: cursive;
+  font-size: 45px;
+  color: #ee2e24;
+  margin: 50px;
+}
+
+.slides {
+  height: auto;
+  padding: 10px;
+  background-color: white;
+  font-size: 0;
+}
+
+.slides img {
+  width: 100%;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+}
+
+.secondary-title {
+  text-align: center;
+  font-family: cursive;
+  font-size: 40px;
+  color: #8bc34a;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.flex-container {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.famous-img {
+  width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+.famous-descrition {
+  margin-top: 10px;
+  margin-left: 30px;
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid lightgrey;
+  width: 45%;
+}
+
+th, td {
+  text-align: center;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #ddd;
+}
+
+.menu-table {
+  margin: 20px;
+}
+
+.cook-card {
+  margin: 10px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.cook-card img {
+  width: 100%;
+}
+
+.google-map {
+  flex: 2;
+}
+
+.google-map iframe {
+  width: 100%;
+  height: 300px;
+}
+
+.contact-info {
+  flex: 1;
+  padding-left: 50px;
+}
+
+.contact-info p {
+  line-height: 1.5;
+}
+
+.footer {
+  text-align: center;
+  background-color: #ee2e24;
+  color: #f2f2f2;
+  padding: 4px;
+  margin-top: 60px;
+}
